@@ -1,0 +1,146 @@
+<!--{template header}-->
+<!--contain start-->
+<div class="wrapper">
+    <div class="container_24">
+        <!--{template user/user_nav}-->
+        <!--main start-->
+        <section class="clearfix section">
+            <!--{template user/user_side}-->
+            <div class="show_panel container_24 po_re">
+                <div class="prefix_3 grid_21">
+                    <div class="panel clearfix box clearfix">
+                     <!--header内容头部 start-->
+                           <!-- <header class="clearfix box_header">
+                                <h2 class="grid_4 alpha omega box_title t_c">认证中心</h2>
+                                <div class="grid_17 alpha omega">
+                                    <nav class="box_nav">
+                                        <ul>
+                                         {loop $auth_item_list $v}
+                                        <li >
+                                            <a href="index.php?do={$do}&view={$view}&op={$op}&auth_code={$v[auth_code]}#userCenter" title="{$v[auth_title]}{$_lang['msg']}">{$v[auth_title]}</a>
+                                        </li>
+                                        {/loop}
+                                           
+                                        </ul>
+                                    </nav>
+                                </div>
+                                <div class="clear">
+                                </div>
+                            </header>-->
+                            <!--header内容头部 end-->
+                             <article class="box_detail">
+                                <div class="pad20">
+                                   <div class="all_authent clearfix">
+                                        <dl class="clearfix">
+                                            <dt class="font18b c333">安全认证信息</dt>
+											{loop $auth_item_list $v}
+                                            <dd>
+                                                <div class="clearfix">
+                                                    <span class="fl_l">
+                                                        <img src="$v['auth_small_ico']">
+                                                        <strong class="c333 pl_5"><a href="index.php?do={$do}&view={$view}&op={$op}&auth_code={$v[auth_code]}#userCenter" title="{$v[auth_title]}{$_lang['msg']}">
+                                                        	$v['auth_title']
+                                                        </a>
+                                                      </strong>
+                                                    </span>
+                                                    <span class="fl_r">
+                                                        <span class="msg {if $user_auth_info[$v[auth_code]]['auth_status']}msg_ok{else}{/if}">
+                                                        <i></i>{if $user_auth_info[$v[auth_code]]['auth_status']}已认证{else}
+														
+														{/if}
+                                                        </span>
+														{if !$user_auth_info[$v[auth_code]]['auth_status']}
+														<a href="index.php?do={$do}&view={$view}&op={$op}&auth_code={$v[auth_code]}#userCenter" class="button">立即认证</a>
+                                                        {/if}
+													</span>
+                                                </div>
+                                                <div class="pt_10">
+                                                    <p>$v['auth_desc']</p>
+                                                </div>
+                                                
+                                            </dd>
+											{/loop}
+                                          <!--  <dd>
+                                                <div class="clearfix">
+                                                    <span class="fl_l">
+                                                        <img src="">
+                                                        <strong class="c333 pl_5">邮箱认证
+
+</strong>
+                                                    </span>
+                                                    <span class="fl_r">
+                                                        <span class="msg msg_ok">
+                                                        <i></i>已认证
+                                                        </span>
+                                                    </span>
+                                                </div>
+                                                <div class="pt_10">
+                                                    <p>邮箱认证后，可使用邮箱直接登录，邮箱
+
+找回密码，收到网站最新任务，最新信息等。</p>
+                                                </div>
+                                                
+                                            </dd>
+                                            <dd>
+                                                <div class="clearfix">
+                                                    <span class="fl_l">
+                                                        <img src="">
+                                                        <strong class="c333 pl_5">手机认证
+
+</strong>
+                                                    </span>
+                                                    <span class="fl_r">
+                                                        <span class="msg msg_error">
+                                                        <i></i>未认证
+                                                        </span>
+                                                    </span>
+                                                </div>
+                                                <div class="pt_10">
+                                                    <p>手机认证后，可使用手机登录、手机找回
+
+密码、接收定制一品威客网各类重要提醒。</p>
+                                                </div>
+                                                
+                                            </dd>
+                                            <dd>
+                                                <div class="clearfix">
+                                                    <span class="fl_l">
+                                                        <img src="">
+                                                        <strong class="c333 pl_5">银行卡认证
+
+</strong>
+                                                    </span>
+                                                    <span class="fl_r">
+                                                        <span class="msg msg_error">
+                                                        <i></i>未认证
+                                                        </span>
+                                                    </span>
+                                                </div>
+                                                <div class="pt_10">
+                                                    <p>通过银行认证后可将账户中的钱提现到银
+
+行卡上。</p>
+                                                </div>
+                                                
+                                            </dd>-->
+                                        </dl>
+
+                                   </div>
+                                </div>
+                            </article>
+                   
+                    <div class="clear">
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!--main end-->
+    </div>
+</div>      
+<script type="text/javascript">
+In('form','custom','xheditor') ;
+
+</script>
+<!--contain end-->
+<!--{template user/user_footer}-->
+<!--{template footer}-->

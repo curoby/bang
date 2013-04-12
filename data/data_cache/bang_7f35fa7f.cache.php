@@ -1,0 +1,1 @@
+<?php 'a:3:{s:19:\"__mp_cache_contents\";a:2:{s:9:\"tpl_title\";s:7:\"default\";s:7:\"tpl_pic\";s:4:\"blue\";}s:18:\"__mp_cache_created\";i:1365692549;s:23:\"__mp_cache_dependencies\";N;}';

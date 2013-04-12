@@ -1,0 +1,1 @@
+<?php 'a:4:{s:19:\"__mp_cache_contents\";a:2:{i:0;a:3:{s:4:\"cash\";s:8:\"2057.000\";s:3:\"uid\";s:1:\"2\";s:8:\"username\";s:6:\"Öí°Ë½ä\";}i:1;a:3:{s:4:\"cash\";s:7:\"161.991\";s:3:\"uid\";s:1:\"1\";s:8:\"username\";s:5:\"admin\";}}s:18:\"__mp_cache_created\";i:1365694408;s:23:\"__mp_cache_dependencies\";N;s:18:\"__mp_cache_expires\";i:1365695008;}';

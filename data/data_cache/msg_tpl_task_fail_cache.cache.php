@@ -1,0 +1,1 @@
+<?php 'a:3:{s:19:\"__mp_cache_contents\";a:1:{i:0;a:5:{s:6:\"tpl_id\";s:3:\"198\";s:8:\"tpl_code\";s:9:\"task_fail\";s:7:\"content\";s:108:\"<p>您发布的{模型名称}任务<a href=\"index.php?do=task&task_id={任务编号}\">{任务标题}</a>因{理由}已经失败。</p>\";s:9:\"send_type\";s:1:\"1\";s:9:\"listorder\";s:1:\"0\";}}s:18:\"__mp_cache_created\";i:1365693720;s:23:\"__mp_cache_dependencies\";N;}';

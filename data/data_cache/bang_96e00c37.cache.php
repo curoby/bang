@@ -1,0 +1,1 @@
+<?php 'a:3:{s:19:\"__mp_cache_contents\";a:6:{s:9:\"config_id\";s:1:\"1\";s:1:\"k\";s:3:\"reg\";s:3:\"obj\";s:4:\"user\";s:4:\"desc\";s:8:\"×¢²á³É¹¦\";s:1:\"v\";s:74:\"a:3:{s:8:\"send_sms\";i:0;s:10:\"send_email\";i:0;s:15:\"send_mobile_sms\";i:0;}\";s:7:\"on_time\";s:10:\"1365412425\";}s:18:\"__mp_cache_created\";i:1365694684;s:23:\"__mp_cache_dependencies\";N;}';

@@ -1,0 +1,1 @@
+<?php 'a:3:{s:19:\"__mp_cache_contents\";a:6:{s:9:\"config_id\";s:3:\"127\";s:1:\"k\";s:9:\"task_fail\";s:3:\"obj\";s:4:\"task\";s:4:\"desc\";s:8:\"ÈÎÎñÊ§°Ü\";s:1:\"v\";s:47:\"a:2:{s:8:\"send_sms\";i:1;s:10:\"send_email\";i:1;}\";s:7:\"on_time\";s:10:\"1343204483\";}s:18:\"__mp_cache_created\";i:1365693721;s:23:\"__mp_cache_dependencies\";N;}';

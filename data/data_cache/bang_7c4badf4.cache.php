@@ -1,0 +1,1 @@
+<?php 'a:4:{s:19:\"__mp_cache_contents\";a:1:{i:0;a:2:{s:10:\"art_cat_id\";s:1:\"1\";s:8:\"cat_name\";s:8:\"客客资讯\";}}s:18:\"__mp_cache_created\";i:1365693718;s:23:\"__mp_cache_dependencies\";N;s:18:\"__mp_cache_expires\";i:1365697318;}';

@@ -1,0 +1,1 @@
+<?php 'a:3:{s:19:\"__mp_cache_contents\";a:3:{s:8:\"username\";s:10:\"Ó£ÌÒÐ¡Íè×Ó\";s:6:\"mobile\";N;s:5:\"email\";s:15:\"58754620@qq.com\";}s:18:\"__mp_cache_created\";i:1365693720;s:23:\"__mp_cache_dependencies\";N;}';
